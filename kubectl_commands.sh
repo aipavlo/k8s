@@ -7,7 +7,7 @@ kubectl get namespaces
 kubectl describe namespace <namespace-name>
 
 
-
+# info about cluster
 kubectl cluster-info
 
 # check logs of pods
