@@ -3,7 +3,8 @@ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scrip
 chmod 700 get_helm.sh
 ./get_helm.sh
 
- helm version
- helm repo update
- helm repo add incubator https://charts.helm.sh/incubator --force-update
- helm search repo <name>
+helm version
+helm repo update
+helm repo add incubator https://charts.helm.sh/incubator --force-update
+helm search repo <name>
+helm list
