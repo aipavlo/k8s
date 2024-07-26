@@ -9,3 +9,6 @@ helm repo add incubator https://charts.helm.sh/incubator --force-update
 helm search repo <name>
 helm list
 helm repo list
+
+helm install my-release-bitnami oci://registry-1.docker.io/bitnamicharts/spark
+helm uninstall my-release
