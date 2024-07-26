@@ -8,3 +8,4 @@ helm repo update
 helm repo add incubator https://charts.helm.sh/incubator --force-update
 helm search repo <name>
 helm list
+helm repo list
