@@ -19,3 +19,6 @@ kubectl describe pod <pod_name>
 
 # check logs of pods
 kubectl logs <pod_name>
+
+# get all deployments
+kubectl get deployments --all-namespaces
