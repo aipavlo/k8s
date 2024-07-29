@@ -10,6 +10,8 @@ helm repo remove spark-operator
 helm repo add spark-operator https://kubeflow.github.io/spark-operator
 helm search repo <name>
 helm list
+helm list --all-namespaces
+helm uninstall my-release --namespace spark-operator
 helm repo list
 
 helm install my-release-bitnami oci://registry-1.docker.io/bitnamicharts/spark
