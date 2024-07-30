@@ -35,3 +35,4 @@ kubectl get deployments --all-namespaces
 
 kubectl get sparkapplications --namespace spark-operator
 kubectl delete sparkapplication spark-pi --namespace spark-operator
+kubectl delete pod <pod_name> --namespace=livy-operator
