@@ -36,3 +36,6 @@ kubectl delete deployment <deployment-name> --namespace=<namespace>
 kubectl get sparkapplications --namespace spark-operator
 kubectl delete sparkapplication spark-pi --namespace spark-operator
 kubectl delete pod <pod_name> --namespace=livy-operator
+
+kubectl get svc --namespace livy-operator
+
