@@ -29,9 +29,10 @@ kubectl describe pod <pod_name>
 # check logs of pods
 kubectl logs <pod_name>
 
-# get all deployments
+# get deployments and delete
 kubectl get deployments --all-namespaces
 kubectl delete deployment <deployment-name> --namespace=<namespace>
+# get aplication and delete
 kubectl get sparkapplications --namespace spark-operator
 kubectl delete sparkapplication spark-pi --namespace spark-operator
 kubectl delete pod <pod_name> --namespace=livy-operator
