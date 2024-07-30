@@ -3,6 +3,15 @@ kubectl version
 # get all namespaces
 kubectl get namespaces
 
+# create namespace
+kubectl apply -f - <<EOF
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: livy-operator
+EOF
+
+
 # get description of namespace
 kubectl describe namespace <namespace-name>
 
