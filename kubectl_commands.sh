@@ -23,7 +23,7 @@ kubectl cluster-info
 # get all pods
 kubectl get pods --all-namespaces
 
-# check pod information
+# check pod information (image and configs)
 kubectl describe pod <pod_name>
 
 # check logs of pods
