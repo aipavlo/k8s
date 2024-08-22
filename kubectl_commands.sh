@@ -38,7 +38,7 @@ kubectl delete sparkapplication spark-pi --namespace spark-operator
 kubectl delete pod <pod_name> --namespace=livy-operator
 
 # get serviceaccount
-kubectl get serviceaccounts -n spark-operator
+kubectl get serviceaccounts -n <namespace>
 
 kubectl get svc --namespace livy-operator
 kubectl get configmaps -n livy-operator
