@@ -1,3 +1,5 @@
+#!/bin/bash/
+
 kubectl version
 
 # get all namespaces
